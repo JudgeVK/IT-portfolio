@@ -381,7 +381,7 @@ header{display:flex;justify-content: space-around;align-items:center;
 		opacity:100%;
 		}
 header button{height:33px; width:303px; margin-right:10%; margin-left:10px;}
-header p{margin-left:none; padding-bottom:15px;}
+header p{margin-left:none; padding-bottom:15px; margin-top:-10px;}
 header a{color:white; font-family: Gro1; font-size:18px;  margin-left:10px; padding-bottom:-5px;}
 header img{ padding:0px; margin:0px; border-color: none; height:60px; width:auto;
 			margin-left:10%; margin-right:3%; border-radius:8px;
