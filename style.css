@@ -665,7 +665,7 @@ video{height:480px;width:720px; border:solid red 1px;}
 /* iPhone 6, 6S, 7, 8, SE 2020 (портретный режим) */
 @media only screen and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 p {font-size:36px; width:85%;
-									margin-top:15px;
+									margin-top:25px;
 									margin-bottom:15px;
 									}
 h1 {font-size:42px; width:85%;}
