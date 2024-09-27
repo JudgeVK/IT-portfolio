@@ -40,7 +40,7 @@ header img{ padding:0px; margin:0px; border-color: none; height:60px; width:auto
   height: 490px;
   width: 100%;
   overflow-x:none;
-  background: url('img/1.png') no-repeat center center fixed;
+  background: url('img/0.jpg') no-repeat center center fixed;
 background-size: cover;
 display:flex;justify-content: center;align-items:center;flex-direction:column;}
 .mT img{padding:0px; width:250px;height:auto;border-color:#F2BD53; border-radius:125px;
@@ -446,10 +446,11 @@ input, button{	font-size:44px; width:700px; height:auto;margin-top:27px;
 .InLine a{width:160px; height:160px; border-radius:30px; border:none;
 			margin:42px; margin-top:60px;
 			padding:0px;			}
-.mT img {width:460px; height:auto;
+.mT img {width:460px; height:auto; margin-top:1100px;
 		border-radius:230px;}
 .mT{
-  background: url('img/1.png') no-repeat center center;
+  background: url('img/0.jpg') no-repeat center center;
+  height:1000px;
 background-size: cover;}
 
 video {margin-left:3%; width:100%; border-radius:0px;}
