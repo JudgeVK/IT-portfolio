@@ -184,14 +184,9 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 			background-color:black;
 			width: 600px;
 			/*margin:0px;
-			border:solid red 2px;*/}
-			
-			
+			border:solid red 2px;*/}	
 .InCol_1 p{/*padding:0px;*/ width:80%;}
-			
-			
-			
-			
+	
 .InRow{	display:flex;
 		flex-wrap: wrap;
 		margin-top:40px;
@@ -201,17 +196,9 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 		margin-top:0px;
 		border-bottom:solid black 40px;
 		justify-content: center;}
-
-
-
 .dungeon{	background-color:black;
 			width:100%;
 			Z-INDEX:13;}
-
-
-
-
-
 .Ins_Rask{display: flex;																			Z-INDEX:11;
 			width: 620px;
 			justify-content: flex-start;  flex-flow: row nowrap;color: #0f0f0f;text-align: center;
@@ -283,15 +270,12 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 		border:red solid 4px;
 		*/
 		}
-.F1,.F2,.F3{width:200px;height:200px;margin:10px;
+.F1,.F2,.F3, .F4{width:200px;height:200px;margin:10px;
 	background: url('img/0.jpg') no-repeat center center;
 	background-size: cover;   overflow-x:none; border-radius:25px;}
 .F2{width:420px;height:420px;}
 .F3{width:420px;height:200px;}			 
-
-.F1 img{width:200px;height:200px; margin:0px; display:none;}		 
-.F2 img{width:420px;height:420px; margin:0px; display:none;}			 
-.F3 img{width:420px;height:200px; margin:0px; display:none;}		 
+.F4 {width:200px;height:420px;}	 
 			 
 .text0{	display:flex; margin:0px;
 		flex-wrap: wrap;
