@@ -13,6 +13,7 @@ for (let i = 1; i < kol.length+1; i += 1) {
 
 function ShowSli(csName,cs,num1) {
 	for (let i = 1; i< arr[num1-1]; i++){
+		
 		let elem = document.querySelectorAll(csName);
 		let k = i-1;
 		elem[k].style.display = "block";
@@ -45,43 +46,13 @@ elem[0].style.display = "block";}
 
 console.log(arr,brr,crr);
 
-
-/*
-// FILTER
-var Filt = document.getElementById("Filt");
-var F1 = 0;
-function FiltHide(b){var Filt = document.getElementById("Filt");
-F1=F1+b;
-if (F1==3){Filt.style.display = "block";}
-else{Filt.style.display = "none";};}
-FiltHide(F1);
-
-// HIDERS	h1
-document.getElementById('hider1').onclick = function hide_1() {
-var Filt = document.getElementById("Filt");
-var element = document.getElementById("Rask");var butts = document.getElementById("hider1");
-       if (element.style.display == "none"){element.style.display = "block"; FiltHide(-1);
-			butts.style.background = "black";
-			butts.style.color = "#f77f00";}
-	   else {element.style.display = "none"; FiltHide(1);
-			butts.style.background = "#f77f00";
-			butts.style.color = "black";};}
-//			h2
-document.getElementById('hider2').onclick = function hide_1() {
-var element = document.getElementById("Illustrations");var butts = document.getElementById("hider2");
-       if (element.style.display == "none"){element.style.display = "block"; FiltHide(-1);
-			butts.style.background = "black";
-			butts.style.color = "#f77f00";}
-	   else {element.style.display = "none"; FiltHide(1);
-			butts.style.background = "#f77f00";
-			butts.style.color = "black";};}
-//			h3
-document.getElementById('hider3').onclick = function hide_1() {
-var element = document.getElementById("Other");var butts = document.getElementById("hider3");
-       if (element.style.display == "none"){element.style.display = "block";  FiltHide(-1);
-	   	butts.style.background = "black";
-		butts.style.color = "#f77f00";}
-	   else {element.style.display = "none";  FiltHide(1);
-			butts.style.background = "#f77f00";
-			butts.style.color = "black";};}
-*/
+function FiltX(a) {
+	var F1 = document.getElementById("F");
+	var F2 = document.getElementById("X");
+	if (a == 1) {
+	X.style.display = "block";
+	F.style.display = "flex";	}
+	else {
+	X.style.display = "none";
+	F.style.display = "none";}
+	}
