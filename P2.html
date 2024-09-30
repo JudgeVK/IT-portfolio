@@ -115,7 +115,106 @@
 																	
 																	
 																	
+<div class="container">
+									<div class="InLine1">
+									  <!-- Вперед и назад кнопки -->
+  <a class="prev" onclick="plusSlides(-1)" style="margin-left:-80%; margin-top:5%;">&#10094;</a>
+  <!-- Полноразмерные изображения с числовым текстом -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 12</div>
+      <img src="img/P2/1.jpg" style="height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 12</div>
+      <img src="img/P2/2.jpg" style="height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 12</div>
+      <img src="img/P2/3.jpg" style="height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 12</div>
+      <img src="img/P2/4.jpg" style="height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 12</div>
+      <img src="img/P2/5.jpg" style="height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 12</div>
+      <img src="img/P2/6.jpg" style="height:600px">
+  </div>
+  
+    <div class="mySlides">
+    <div class="numbertext">7 / 12</div>
+      <img src="img/P2/7.jpg" style="height:600px">
+  </div>
+  
+    <div class="mySlides">
+    <div class="numbertext">8 / 12</div>
+      <img src="img/P2/8.jpg" style="height:600px">
+  </div>
+  
+    <div class="mySlides">
+    <div class="numbertext">9 / 12</div>
+      <img src="img/P2/9.jpg" style="height:600px">
+  </div>
+  
+    <div class="mySlides">
+    <div class="numbertext">10 / 12</div>
+      <img src="img/P2/10.jpg" style="height:600px">
+  </div>
+
+      <div class="mySlides">
+    <div class="numbertext">11 / 12</div>
+      <img src="img/P2/11.jpg" style="height:600px">
+  </div>
+  
+        <div class="mySlides">
+    <div class="numbertext">12 / 12</div>
+      <img src="img/P2/12.jpg" style="height:600px">
+  </div>
+  
+  <!-- Вперед и назад кнопки -->
+  <a class="next" style="margin-right:8%; margin-top:5%;" onclick="plusSlides(1)">&#10095;</a>
+													</div>
+</div>
 																	
+																											
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+// Вперед/назад элементы управления
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+// Элементы управления миниатюрами изображений
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>																	
 																	
 																	
 <hr></hr>
