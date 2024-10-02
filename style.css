@@ -314,7 +314,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 		opacity:50%;
 		display:none;
 		}
-.X:hover{	background-color:rgba(0, 0, 0, 0.7);
+.X:hover{	/* background-color:rgba(0, 0, 0, 0.7); */
 			opacity:100%;}
 
 .FixFlex{	display:flex;
@@ -355,7 +355,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 .ForImg1 img{	height: 99%;width: auto;
 				}
 
-.buttonsX2,.buttonsX1{	color:white;font-size: 24px; padding:10px;
+.buttonsX2,.buttonsX1{	color:white;font-size: 24pt; padding:10px;
 			background-color:none;
 			Z-INDEX:13;
 			position:fixed;  /* border: solid red 2px; */
@@ -364,12 +364,12 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 					flex-direction:column;
 					justify-content:center;
 					align-items:center;
-			
+			opacity:50%;
 			top:0px;
 			}					
 .buttonsX1{left:0px;}						
 .buttonsX2{right:0px;}
-.buttonsX2:hover,.buttonsX1:hover{color:black; background-color:white; opacity:30%;}
+.buttonsX2:hover,.buttonsX1:hover{color:white; background-color:none; opacity:100%;}
 					
 						
 						
