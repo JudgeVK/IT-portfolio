@@ -18,14 +18,13 @@ width:100%;
 margin-top:0px;
 margin-left:0px;
 overflow-x: hidden;}
-header{display:flex;justify-content: space-around;/* align-items:center; */
+header{display:flex;justify-content: space-around;
 		height:73px;
 		width: 100%;
 		background-color: #000000;
 		position:fixed;
 		top:0px;
 		Z-INDEX:7;
-		/*border-bottom:solid #FA6B13 3px;*/
 		opacity:100%;
 		}
 header button{height:33px; width:303px; margin-right:10%; margin-left:10px;}
@@ -69,18 +68,6 @@ display:flex;justify-content: center;align-items:center;flex-direction:column;
 width: 100%;
 background-color: #000000;}
 .Ill img,.Sto img{width:626px; height:336px;border-radius:25px;	Z-INDEX:13;}
-/*
-Sto{MARGIN-TOP:0PX;
-display:flex;justify-content: center;align-items:center;flex-direction:column;
-width: 100%;
-background-image: linear-gradient(to top, #FCA637 , #FFDD7C , #FFDD7C);
-background-size: cover;}
-.Sto img{width:626px; height:auto;border-radius:25px;
-		background: url('img/Mail.png') no-repeat center center fixed;
-		}
-.Sto h1{color:black;}
-.Sto p{color:black;}
-*/
 
 
 .mAIL{display:flex;justify-content: center;
@@ -117,8 +104,7 @@ font-style:regular;font-weight:400;
 									margin-top:4px;
 									margin-bottom:4px;
 font-family: 'Gro3';
-text-indent: 30px;
-/* font-family: Arial; */}
+text-indent: 30px;	}
 p a{color:#FCA637;}
 
 
@@ -181,13 +167,12 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 		width: 626px; height: 326px; border-radius:25px;}
  
 .InLine, .InLine1 {display:flex;justify-content: center;align-items:center;flex-direction:row;}
-.InCol {display:flex;justify-content: center;align-items:center;flex-direction:column;}
-.InCol_1 {display:flex;justify-content: center;align-items:center;flex-direction:column; 			Z-INDEX:11;
+.InCol {		display:flex;justify-content: center;align-items:center;flex-direction:column;}
+.InCol_1 {	display:flex;justify-content: center;align-items:center;flex-direction:column; 			Z-INDEX:11;
 			background-color:black;
 			width: 600px;
-			/*margin:0px;
-			border:solid red 2px;*/}	
-.InCol_1 p{/*padding:0px;*/ width:80%;}
+			}	
+.InCol_1 p{ width:80%;}
 	
 .InRow{	display:flex;
 		flex-wrap: wrap;
@@ -204,7 +189,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 .Ins_Rask{display: flex;																			Z-INDEX:11;
 			width: 620px;
 			justify-content: flex-start;  flex-flow: row nowrap;color: #0f0f0f;text-align: center;
-		   background-color:black ; /*border:solid #f77f00 2px;*/}		
+		   background-color:black;}		
 #In_Line1{display:flex;flex-direction:row;margin-bottom:10px;justify-content:flex-start;
 			width:550px;}
 #In_Line2{display:flex;flex-direction:row;margin-bottom:10px;justify-content:flex-start;
@@ -213,23 +198,20 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 			margin-bottom:150px;}
 .ForSli{width: 550;
 		height: 750px;
-		/*border: solid #003049 2px;padding:5px;*/ background-color:black;
+		background-color:black;
 		}
 		
-.ForImg{	/*display: flex; justify-content:center;
-			align-items:center;*/}
+.ForImg{	}
 .ForImg img{width: 500px; width: 85%;
 		height: auto;}
 	.slides1, .slides2, .slides3, .slides4, .slides5, .slides6, .slides7{}
 
 
-.NexSli{/*max-width: 300px;*/
-		color:#f77f00;}
-.PreSli{/*max-width: 300px;*/
-		color:#f77f00;}
-.buttons{color:white;font-size: 24px; padding:10px; display:flex; flex-direction:column; justify-content:center;
-			background-color:none;}
-.buttons:hover{color:black; background-color:white; opacity:30%;}
+.NexSli{	color:#f77f00;}
+.PreSli{	color:#f77f00;}
+.buttons{	color:white;font-size: 24px; padding:10px; display:flex; flex-direction:column; justify-content:center;
+			background-color:none;	opacity:50%;}
+.buttons:hover{color:white; opacity:100%;}
 .buttons2{color:white;font-size: 24px; padding:10px; display:flex; flex-direction:column; justify-content:center;
 			background-color:none; height:1290px;}
 .buttons2:hover{color:black; background-color:white; opacity:30%;}
@@ -239,11 +221,9 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 #In_Line{display:flex;flex-direction:row;margin-bottom:10px;justify-content:flex-start;}
 					
 						
-.Gallery {	/*Z-INDEX:12;*/
-			width:20%;
+.Gallery {	width:20%;
 			height:100px;
-			background-color: red; /*background-color: white; border:red solid 4px;
-			 padding:0px;*/}		
+			background-color: red; }		
 
 .Forimg22{width: 626px; height: 326px; border-radius:25px;
 		margin:10px; box-shadow: 0 0 10px rgba(0,0,0,0.7); }
@@ -256,22 +236,17 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 
 
 
-.Flg{	/*display:flex;*/ width:100%;
+.Flg{	width:100%;
 		margin-bottom:80px;
 		}
 .InRow3{	display:flex;
 		flex-wrap: wrap;
 		margin-top:0px;
 		justify-content: center;}
-/*
-.InLine, .InLine1 {display:flex;justify-content: center;align-items:center;flex-direction:row;}
-*/
+
 .InCol3 {display:flex;justify-content: center;align-items:center;flex-direction:column;}
-.cont{	width:450px; height:450px;
-		/*
-		border:red solid 4px;
-		*/
-		}
+.cont{	width:450px; height:450px;		}
+
 .F1,.F2,.F3, .F4{width:200px;height:200px;margin:10px;
 	background: url('img/0.jpg') no-repeat center center;
 	background-size: cover;   overflow-x:none; border-radius:25px;
@@ -283,7 +258,6 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 .F3{width:420px;height:200px;}			 
 .F4 {width:200px;height:420px;}	 
 
-/* .F1:hover,.F2:hover,.F3:hover, .F4:hover{opacity:50%;border:solid red 4px;} */
 .F1 .bl,.F2 .bl,.F3 .bl,.F4 .bl{width:100%; height:100%;margin:0px; }
 
 
@@ -315,8 +289,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 		opacity:50%;
 		display:none;
 		}
-.X:hover{	/* background-color:rgba(0, 0, 0, 0.7); */
-			opacity:100%;}
+.X:hover{	opacity:100%;}
 
 .FixFlex{	display:flex;
 		height:100%;
@@ -334,23 +307,15 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 			justify-content:center;
 			align-items:center;
 			
-		   background-color:none ; /*border:solid #f77f00 2px;*/}
+		   background-color:none;	}
 			
-			
-/*.FixFlex .buttons{height:1000px;width:300px;
-					display:flex;
-					align-items:center;
-					Z-INDEX:12;}	*/
+
 .ForImg1 img{	display:flex;
 			justify-content:center;
 			align-items:center;
 			}
 			
-.ForSli{	
-			/*padding:5px;*/ 
-			background-color:none;
-			
-		}
+.ForSli{	background-color:none;		}
 		
 .ForImg1{}
 .ForImg1 img{	height: 99%;width: auto;
@@ -359,7 +324,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 .buttonsX2,.buttonsX1{	color:white;font-size: 24pt; padding:10px;
 			background-color:none;
 			Z-INDEX:13;
-			position:fixed;  /* border: solid red 2px; */
+			position:fixed; 
 			height:100%;width:300px;
 					display:flex;
 					flex-direction:column;
@@ -385,7 +350,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 					margin-bottom:5px;}						
 						
 #men4{	position:fixed; Z-INDEX:150;			display:none;
-		top:40px; right:40px;
+		top:40px; right:40px;					/*	Border:solid white 2px;	*/
 		background-color:black;
 		padding:10px;
 		border-radius:20px;}
@@ -495,33 +460,26 @@ input, button{	font-size:44px; width:700px; height:auto;margin-top:27px;
 		margin-top:0px;
 		justify-content: center;}
 
-
-			
-		
-		
 		
 .Ins_Rask{display: flex;																			Z-INDEX:11;
 			width: 100%;
 			justify-content: flex-start;  flex-flow: row nowrap;color: #0f0f0f;text-align: center;
-		   background-color:black ; /*border:solid #f77f00 2px;*/}		
+		   background-color:black ;}		
 #In_Line1{display:flex;flex-direction:row;margin-bottom:10px;justify-content:flex-start;
 			width:100%;}
 .ForSli{width: 100%;
 		height: 1200px;
-		/*border: solid #003049 2px;padding:5px;*/ background-color:black;
+		background-color:black;
 		}
 		
-.ForImg{	/*display: flex; justify-content:center;
-			align-items:center;*/}
-.ForImg img{width: 130%;
-		height: auto;}
+.ForImg{	}
+.ForImg img{	width: 130%;
+			height: auto;}
 	.slides1, .slides2, .slides3, .slides4, .slides5, .slides6, .slides7{}
 
 
-.NexSli{/*max-width: 300px;*/
-		color:#f77f00;}
-.PreSli{/*max-width: 300px;*/
-		color:#f77f00;}
+.NexSli{	color:#f77f00;}
+.PreSli{	color:#f77f00;}
 .buttons{color:white;font-size: 64px; padding:15px; display:flex; flex-direction:column; justify-content:center;
 			background-color:none;}
 .buttons:hover{color:#f77f00; background-color:none;}
