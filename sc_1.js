@@ -84,3 +84,28 @@ for (let i = 0; i < kol.length; i++) {
 	elem[0].style.display = "block";}
 	
 	console.log(arr,brr,crr);
+
+// header .hh and .hp1,2,3
+
+function HPshow(a,b){
+	let Name3 = "hp"+a;
+	console.log(Name3);
+	let el = document.getElementById(Name3);
+		if (b==1){el.style.display = "flex";}
+		if (b==0){el.style.display = "none";}
+										
+					}
+// Show or hide any ID with none flex or block
+function ShowHideEl(Name,fb){
+	let el = document.getElementById(Name);
+	
+	if (el.style.display == "none")	{
+		if (fb == 'b'){el.style.display = "block";}
+		else {el.style.display = "flex";}
+						}
+	else {
+	el.style.display = "none";
+		}
+	
+	console.log(el.style.display,fb,Name);
+	}
