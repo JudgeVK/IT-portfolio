@@ -18,7 +18,7 @@ width:100%;
 margin-top:0px;
 margin-left:0px;
 overflow-x: hidden;}
-header{display:flex;justify-content: space-around;align-items:center;
+header{display:flex;justify-content: space-around;/* align-items:center; */
 		height:73px;
 		width: 100%;
 		background-color: #000000;
@@ -34,6 +34,7 @@ header a{color:white; font-family: Gro1; font-size:18px;  margin-left:10px; padd
 header img{ padding:0px; margin:0px; border-color: none; height:60px; width:auto;
 			margin-left:10%; margin-right:3%; border-radius:8px;
 			margin-left:3%; height:35px;}
+header a img:hover{opacity:50%;}
 
 .mT{position:relative;Z-INDEX:2; importance:'high';
 	top:60px;
@@ -371,12 +372,36 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 .buttonsX2{right:0px;}
 .buttonsX2:hover,.buttonsX1:hover{color:white; background-color:none; opacity:100%;}
 					
+.hh{margin-top:10px; width:100%;}
+.hh p{}
+
+#hp1,#hp2,#hp3{	background-color:rgba(0, 0, 0, 0.7); width:150%;
+				padding:20px; border-radius:0px 0px 15px 15px;
+				display:flex; flex-direction:column;
+				display:none;
+				}
+#hp1 hr,#hp2 hr,#hp3 hr{height:1px; margin-top:-25px; margin-bottom:15px;}						
+#hp1 a,#hp2 a,#hp3 a{	font-size:12pt;text-indent: 0px;
+					margin-bottom:5px;}						
 						
-						
-						
-						
-						
-						
+#men4{	position:fixed; Z-INDEX:150;			display:none;
+		top:40px; right:40px;
+		background-color:black;
+		padding:10px;
+		border-radius:20px;}
+#men4 img{	border-radius:0px;
+			width:70px; height:70px;
+			background-color:black;}		
+#men3{	position:fixed; Z-INDEX:149;			display:none;
+		top:0px; right:0px;
+		background-color:rgba(0, 0, 0, 0.8);
+		padding-top:150px;
+		padding-right:150px;
+		padding-left:150px;
+		padding-bottom:200px;
+		border-radius: 0px 0px 0px 25px;
+		}					
+#men3 hr{height:3px;}						
 						
 						
 						
@@ -393,12 +418,22 @@ p {	font-size:36px; width:85%;
 									margin-bottom:15px;
 	text-indent: 80px;
 									}
+#men4{display:block;}
+.hh h1{font-size:40px;}
+.hh h1 a{color:#FCA637 ;}
+.hh p {font-size:36px; 	text-indent:0px;}
+.hh p a{color:white;}
+
+#hh #hp1 a,#hh #hp2 a,#hh #hp3 a{font-size:40px;}
+#men3{			display:none;}
+
 h1 {font-size:42px; width:85%;}
 h2 {font-size:48px; /* padding-left:20%;  padding-right:10%; */
 	width:85%;}
 
 header {height:200px; Z-INDEX:20;
 		display:flex;
+		display:none;
 		justify-content: space-around;
 		align-items:center;
 		}
@@ -437,13 +472,14 @@ input, button{	font-size:44px; width:700px; height:auto;margin-top:27px;
 .mT img {width:460px; height:auto; margin-top:1100px;
 		border-radius:230px;}
 .mT{
-  background: url('img/0.jpg') no-repeat center center;
-  height:1000px;
-background-size: cover;}
+	margin-top:-45px;
+	background: url('img/0.jpg') no-repeat center center;
+	height:1300px;
+	background-size: cover;}
 
 .mT h1{	font-size:46pt; padding:60px; width:800px;
 		box-shadow: 24px 24px 4px 2px rgba(0, 0, 255, .2);}
-
+.mT a{margin-top:300px;}
 
 
 .text2{padding:0px;}
