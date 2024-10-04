@@ -109,3 +109,5 @@ function ShowHideEl(Name,fb){
 	
 	console.log(el.style.display,fb,Name);
 	}
+
+ShowHideEl('men3','b');
