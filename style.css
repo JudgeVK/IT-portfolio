@@ -365,6 +365,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 		padding-left:150px;
 		padding-bottom:200px;
 		border-radius: 0px 0px 0px 25px;
+												/* overflow-y: scroll; */
 		}					
 #men3 hr{height:3px;}
 						
