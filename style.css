@@ -357,7 +357,7 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 #men4 img{	border-radius:0px;
 			width:70px; height:70px;
 			background-color:black;}		
-#men3{	position:fixed; Z-INDEX:149;			display:none;
+#men3{	position:fixed; Z-INDEX:149;			display:none; width:80%;
 		top:0px; right:0px;
 		background-color:rgba(0, 0, 0, 0.8);
 		padding-top:100px;
@@ -378,8 +378,10 @@ video{width:80%; max-height:720px; border:solid white 2px; margin-left:10%;
 footer a img{opacity:100%;}				
 footer a img:hover{opacity:50%;}							
 						
-						
-						
+details{}
+summary{color:#FCA637;
+font-family: 'Gro1';; font-size:40px;}					
+summary a{margin-top:10px;}						
 				
 						
 						
@@ -393,7 +395,7 @@ p {	font-size:36px; width:85%;
 									}
 #men4{display:block;}
 .hh h1{font-size:40px;}
-.hh h1 a{color:#FCA637 ;}
+.hh h1 a{color:#FCA637; text-indent:200px;}
 .hh p {font-size:36px; 	margin:0px; margin-bottom:3px; text-indent:0px; }
 .hh p a{color:white;}
 
